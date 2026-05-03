@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     # TMDB Configuration
-    TMDB_API_KEY = os.getenv('TMDB_API_KEY', 'a95f39801011aef66bad6c36ff575757')
+    TMDB_API_KEY = os.getenv('TMDB_API_KEY', '#enter imdb api key')
     TMDB_BASE_URL = "https://api.themoviedb.org/3"
     TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
     
